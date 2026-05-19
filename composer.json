@@ -1,0 +1,29 @@
+{
+    "name": "istvanmolitor/post-calendar",
+    "description": "Calendar package for displaying posts.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junie",
+            "email": "junie@jetbrains.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Molitor\\PostCalendar\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Molitor\\PostCalendar\\Providers\\PostCalendarServiceProvider"
+            ]
+        }
+    }
+}
