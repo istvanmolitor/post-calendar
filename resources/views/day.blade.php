@@ -11,6 +11,6 @@
             Ezen a napon nem született bejegyzés.
         </div>
     @else
-        <x-cms-post-list :posts="$posts" />
+        <x-cms::post-list :posts="$posts" />
     @endif
 @endsection
