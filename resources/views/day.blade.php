@@ -1,4 +1,32 @@
-@extends('theme::layouts.container')
+@extends($layout)
+
+@section('sidebar')
+    <x-theme::template view="post-calendar::day.partials.sidebar" />
+@endsection
+
+@section('top')
+    <x-theme::template view="post-calendar::day.partials.top" />
+@endsection
+
+@section('bottom')
+    <x-theme::template view="post-calendar::day.partials.bottom" />
+@endsection
+
+@section('page-top')
+    <x-theme::template view="post-calendar::day.partials.page-top" />
+@endsection
+
+@section('page-bottom')
+    <x-theme::template view="post-calendar::day.partials.page-bottom" />
+@endsection
+
+@section('content-top')
+    <x-theme::template view="post-calendar::day.partials.content-top" />
+@endsection
+
+@section('content-bottom')
+    <x-theme::template view="post-calendar::day.partials.content-bottom" />
+@endsection
 
 @section('content')
     <div class="mb-6 flex items-center justify-between">

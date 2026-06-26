@@ -12,7 +12,9 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.0|^12.0"
+        "laravel/framework": "^11.0|^12.0",
+        "istvanmolitor/setting": "*",
+        "istvanmolitor/theme": "*"
     },
     "autoload": {
         "psr-4": {
